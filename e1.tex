@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+
+% Title info
+\title{Document Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This is a sample paragraph. LaTeX handles text formatting automatically,
+including justification, hyphenation, and spacing.
+
+\subsection{A Subsection}
+You can nest sections like this. Here's an inline equation: $E = mc^2$,
+and a displayed one:
+
+\begin{equation}
+    \int_{0}^{\infty} e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+\end{equation}
+
+\section{Lists}
+\begin{itemize}
+    \item First item
+    \item Second item
+    \begin{itemize}
+        \item Nested item
+    \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+    \item Step one
+    \item Step two
+\end{enumerate}
+
+\section{Tables}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        A & B & C \\
+        \hline
+        1 & 2 & 3 \\
+        \hline
+    \end{tabular}
+    \caption{Example table}
+\end{table}
+
+\section{Conclusion}
+That covers the basics: structure, math, lists, and tables.
+
+\end{document}
